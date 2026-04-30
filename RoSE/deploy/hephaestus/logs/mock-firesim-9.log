@@ -1,0 +1,3 @@
+[Mock] Ports cleared, starting mock server and proxy...
+[Mock] listening on 127.0.0.1:10002[Proxy] listening on 127.0.0.1:10001 -> forwarding to 10002
+

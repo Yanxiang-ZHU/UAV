@@ -1,0 +1,3 @@
+,frame,cycles,real_time,ang_x_accel,ang_y_accel,ang_z_accel,ang_x_vel,ang_y_vel,ang_z_vel,lin_x_accel,lin_y_accel,lin_z_accel,lin_x_vel,lin_y_vel,lin_z_vel,x,y,z,depth,pitch,roll,yaw,target_z,target_x_vel,target_y_vel,target_yawrwate
+0,0,,,,,,,,,,,,,,,,,,,,,,,,,
+1,0,0.0,0.001486063003540039,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.557697594165802,13.090545654296875,0.0,0.0,1.0471968585448042,0.0,0.0,0.0,0.0

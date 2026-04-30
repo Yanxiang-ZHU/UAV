@@ -1,0 +1,2909 @@
+[Mock] Ports cleared, starting mock server and proxy...
+[Mock] listening on 127.0.0.1:10002[Proxy] listening on 127.0.0.1:10001 -> forwarding to 10002
+
+[Proxy] new RoSE client ('127.0.0.1', 40458)
+[Proxy] connected mock (10002)
+[Mock] connected from ('127.0.0.1', 59582)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x83\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00-1\x01'
+
+[Mock] RX cmd=0x83, num_bytes=4, payload_len=1
+
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock] latency_queue append cmd=0x04
+[Mock] Sending: cmd=0x04
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=4, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x04, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock] latency_queue append cmd=0x06
+[Mock] Sending: cmd=0x06
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=6, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x06, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+========== send coor req ==========
+[Mock] latency_queue append cmd=0x30
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock] Sending: cmd=0x30
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=48, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x30, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'1\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+[RoSE->Mock] packet received
+[Mock] RX cmd=0x31, num_bytes=4, payload_len=1
+
+
+detect cmd = 0x31, flip flag
+[RoSE->Mock] prepare to send packetflag break
+
+[Mock] latency_queue append cmd=0x32
+[Mock] Sending: cmd=0x32[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=50, data_len=0, is_float=False
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+[Mock/SEND] prepare to send
+
+[Mock] latency_queue append cmd=0x84
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x32, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet[Mock] response enqueue with delay: cmd=0x84, len=0[Mock] Sending: cmd=0x84
+
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'3\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'[RoSE->Mock] packet received
+
+[RoSE->Mock] prepare to send packet[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+
+[Mock] RX cmd=0x33, num_bytes=4, payload_len=1
+
+detect cmd = 0x33, flip flag
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)flag break
+
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[Mock] latency_queue append cmd=0x34
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+[Mock] Sending: cmd=0x34
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+
+[Mock] latency_queue append cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=52, data_len=0, is_float=False
+[Mock] response enqueue with delay: cmd=0x84, len=0[Mock/SEND] prepare to send
+
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x34, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] prepare to send packet
+
+[Mock] Sending: cmd=0x84[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'5\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet[Mock/RECV]: recv_all_f:b'\x8c\n\x86?'
+
+
+[Mock] RX cmd=0x35, num_bytes=4, payload_len=1
+
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock] dxy=83.0000, dphi=-2.8507 (rad)
+
+detect cmd = 0x35, flip flag
+flag break[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+========== send depth stream req ==========
+[Mock] latency_queue append cmd=0x14
+========== wait depth rsp ==========
+[Mock] Sending: cmd=0x14
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=20, data_len=0, is_float=True
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x14, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] prepare to send packet
+[RoSE->Mock] packet received[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] prepare to send packet
+
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x15\x00\x00\x00'[RoSE->Mock] packet received
+
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\xc8B'
+
+[Mock] RX cmd=0x15, num_bytes=4, payload_len=1
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[RoSE->Mock] packet received
+[Mock] CS_RSP_DEPTH_STREAM payload size mismatch: got=1, expect=3136[RoSE->Mock] prepare to send packet
+
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)detect cmd = 0x15, flip flag
+
+flag break[Mock/RECV]: recv_all:b'\x13\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\xc8B'
+
+[Mock] RX cmd=0x13, num_bytes=4, payload_len=1
+
+detect cmd = 0x13, flip flag
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+========== send waypoint req ==========
+[Mock] latency_queue append cmd=0x02
+[Mock] Sending: cmd=0x02
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=2, data_len=16, is_float=True
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x02, total=24 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=24 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock] Complete 1 IMG
+========== send coor req ==========
+[Mock] latency_queue append cmd=0x30
+[Mock] Sending: cmd=0x30
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=48, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x30, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] prepare to send packet
+
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'1\x00\x00\x00'
+[RoSE->Mock] packet received
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all_f:b'I\xb6\x1fA'
+
+[Mock] RX cmd=0x31, num_bytes=4, payload_len=1
+
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock] dxy=1092597238.0000, dphi=0.2909 (rad)
+
+detect cmd = 0x31, flip flag
+flag break[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock] latency_queue append cmd=0x32
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+[Mock] Sending: cmd=0x32
+
+[Mock] latency_queue append cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=50, data_len=0, is_float=False[Mock] response enqueue with delay: cmd=0x84, len=0
+
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x32, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)[Mock] Sending: cmd=0x84
+
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] prepare to send packet
+
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'3\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x80\xdc\x1eA'
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock] RX cmd=0x33, num_bytes=4, payload_len=1
+
+
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock] dxy=1545126468.0579, dphi=1.0763 (rad)
+
+detect cmd = 0x33, flip flag
+flag break
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock] latency_queue append cmd=0x34[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+[Mock] Sending: cmd=0x34
+
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=52, data_len=0, is_float=False
+[Mock] latency_queue append cmd=0x84[Mock/SEND] prepare to send
+
+[Mock/SEND] send_packet cmd=0x34, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'5\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+
+[RoSE->Mock] packet received
+[Mock/RECV]: recv_all_f:b'\xf5\xfa\x85?'[RoSE->Mock] prepare to send packet
+
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock] RX cmd=0x35, num_bytes=4, payload_len=1
+
+
+[Mock] dxy=1545126468.0579, dphi=2.2536 (rad)
+detect cmd = 0x35, flip flag
+flag break[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+========== send depth stream req ==========
+[Mock] latency_queue append cmd=0x14
+========== wait depth rsp ==========
+[Mock] Sending: cmd=0x14
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=20, data_len=0, is_float=True
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x14, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] prepare to send packet
+
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x15\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\xc8B'
+[RoSE->Mock] packet received
+[Mock] RX cmd=0x15, num_bytes=4, payload_len=1
+
+
+[RoSE->Mock] prepare to send packet
+[Mock] CS_RSP_DEPTH_STREAM payload size mismatch: got=1, expect=3136
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)detect cmd = 0x15, flip flag
+
+[RoSE->Mock] packet receivedflag break
+
+[RoSE->Mock] prepare to send packet[Mock/RECV]: recv_all:b'\x13\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\xc8B'
+
+[Mock] RX cmd=0x13, num_bytes=4, payload_len=1
+
+detect cmd = 0x13, flip flag
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+========== send waypoint req ==========
+[Mock] latency_queue append cmd=0x02
+[Mock] Sending: cmd=0x02
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=2, data_len=16, is_float=True
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x02, total=24 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=24 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock] Complete 2 IMG
+========== send coor req ==========
+[Mock] latency_queue append cmd=0x30
+[Mock] Sending: cmd=0x30
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=48, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x30, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] prepare to send packet
+
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'1\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\xda\x91\x9eA'
+
+[Mock] RX cmd=0x31, num_bytes=4, payload_len=1
+
+[Mock] dxy=1551016463.5806, dphi=2.2498 (rad)
+detect cmd = 0x31, flip flag
+flag break
+[Mock] latency_queue append cmd=0x32
+[Mock] Sending: cmd=0x32
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=50, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x32, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'3\x00\x00\x00'
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\xf2?nA'
+
+[Mock] RX cmd=0x33, num_bytes=4, payload_len=1
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock] dxy=1554685722.0534, dphi=2.2522 (rad)
+detect cmd = 0x33, flip flag
+flag break[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock] latency_queue append cmd=0x34[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+[Mock] Sending: cmd=0x34
+
+[Mock] latency_queue append cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=52, data_len=0, is_float=False
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock/SEND] send_packet cmd=0x34, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'5\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\xc4g\x85?'[RoSE->Mock] packet received
+
+[RoSE->Mock] prepare to send packet
+[Mock] RX cmd=0x35, num_bytes=4, payload_len=1
+
+
+[Mock] dxy=1554685722.0534, dphi=2.9899 (rad)
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)detect cmd = 0x35, flip flag
+
+flag break[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+========== send depth stream req ==========
+[Mock] latency_queue append cmd=0x14
+========== wait depth rsp ==========
+[Mock] Sending: cmd=0x14
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=20, data_len=0, is_float=True
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock/SEND] send_packet cmd=0x14, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x15\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+[RoSE->Mock] packet received
+[Mock/RECV]: recv_all_f:b'\x00\x00\xc8B'
+[RoSE->Mock] prepare to send packet
+[Mock] RX cmd=0x15, num_bytes=4, payload_len=1
+
+
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock] CS_RSP_DEPTH_STREAM payload size mismatch: got=1, expect=3136
+[RoSE->Mock] packet receiveddetect cmd = 0x15, flip flag
+
+flag break[Mock/RECV]: recv_all:b'\x13\x00\x00\x00'[RoSE->Mock] prepare to send packet
+
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\x00\x00\xc8B'
+
+
+[Mock] RX cmd=0x13, num_bytes=4, payload_len=1
+
+detect cmd = 0x13, flip flag
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+========== send waypoint req ==========
+[Mock] latency_queue append cmd=0x02
+[Mock] Sending: cmd=0x02
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=2, data_len=16, is_float=True
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x02, total=24 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=24 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock] Complete 3 IMG
+========== send coor req ==========
+[Mock] latency_queue append cmd=0x30
+[Mock] Sending: cmd=0x30
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=48, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x30, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] prepare to send packet
+
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'1\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\xbd\x03\xf0A'
+
+[Mock] RX cmd=0x31, num_bytes=4, payload_len=1
+
+[Mock] dxy=1558469943.5965, dphi=2.9875 (rad)
+detect cmd = 0x31, flip flag
+flag break
+[Mock] latency_queue append cmd=0x32
+[Mock] Sending: cmd=0x32
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=50, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x32, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0[Mock] Sending: cmd=0x84
+
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'3\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'=a\x1bA'
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+
+[Mock] RX cmd=0x33, num_bytes=4, payload_len=1
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock] dxy=1554649297.4204, dphi=2.9850 (rad)
+
+detect cmd = 0x33, flip flag
+flag break[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock] latency_queue append cmd=0x34
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+[Mock] Sending: cmd=0x34
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=52, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock] latency_queue append cmd=0x84[Mock/SEND] send_packet cmd=0x34, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] packet received[Mock] Sending: cmd=0x84
+
+[Mock] response enqueue with delay: cmd=0x84, len=0[Mock->RoSE] prepare to send packet[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+
+[Mock/SEND] prepare to send
+
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'5\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+[RoSE->Mock] packet received
+[Mock/RECV]: recv_all_f:b'\x1d\xf7\x84?'
+
+[Mock] RX cmd=0x35, num_bytes=4, payload_len=1
+
+[RoSE->Mock] prepare to send packet[Mock] dxy=1554649297.4204, dphi=2.1645 (rad)
+
+detect cmd = 0x35, flip flag
+flag break[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+========== send depth stream req ==========
+[Mock] latency_queue append cmd=0x14
+========== wait depth rsp ==========
+[Mock] Sending: cmd=0x14
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=20, data_len=0, is_float=True
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x14, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x15\x00\x00\x00'[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\xc8B'[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+
+[Mock] RX cmd=0x15, num_bytes=4, payload_len=1
+
+[RoSE->Mock] packet received[Mock] CS_RSP_DEPTH_STREAM payload size mismatch: got=1, expect=3136
+
+[RoSE->Mock] prepare to send packetdetect cmd = 0x15, flip flag
+
+flag break[Mock/RECV]: recv_all:b'\x13\x00\x00\x00'
+
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\xc8B'
+
+[Mock] RX cmd=0x13, num_bytes=4, payload_len=1
+
+detect cmd = 0x13, flip flag
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+========== send waypoint req ==========
+[Mock] latency_queue append cmd=0x02
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock] Sending: cmd=0x02
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=2, data_len=16, is_float=True
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x02, total=24 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=24 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock] Complete 4 IMG
+========== send coor req ==========
+[Mock] latency_queue append cmd=0x30
+[Mock] Sending: cmd=0x30
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=48, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x30, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'1\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet[Mock/RECV]: recv_all_f:b'\xf7\xfc\x1fB'
+
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock] RX cmd=0x31, num_bytes=4, payload_len=1
+
+[Mock] dxy=1556888050.0218, dphi=2.1631 (rad)
+detect cmd = 0x31, flip flag
+flag break[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock] latency_queue append cmd=0x32[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] Sending: cmd=0x32
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=50, data_len=0, is_float=False
+[Mock] latency_queue append cmd=0x84
+[Mock/SEND] prepare to send[Mock] response enqueue with delay: cmd=0x84, len=0
+
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x32, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] prepare to send packet
+
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)[Mock] Sending: cmd=0x84
+
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'3\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all_f:b'\xac\x03\x17\xbe'[RoSE->Mock] packet received
+
+
+[Mock] RX cmd=0x33, num_bytes=4, payload_len=1
+[RoSE->Mock] prepare to send packet
+[Mock] dxy=3376627975.3821, dphi=2.6214 (rad)
+
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)detect cmd = 0x33, flip flag
+
+flag break[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock] latency_queue append cmd=0x34
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] Sending: cmd=0x34
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=52, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x34, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock] Sending: cmd=0x84
+[Mock->RoSE] prepare to send packet
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'5\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'"\x82\x84?'
+
+[Mock] RX cmd=0x35, num_bytes=4, payload_len=1
+
+[Mock] dxy=3376627975.3821, dphi=-2.3229 (rad)
+detect cmd = 0x35, flip flag
+flag break
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+========== send depth stream req ==========
+[Mock] latency_queue append cmd=0x14
+========== wait depth rsp ==========
+[Mock] Sending: cmd=0x14
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=20, data_len=0, is_float=True
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x14, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] prepare to send packet
+[RoSE->Mock] packet received[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] prepare to send packet
+
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x15\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+
+[RoSE->Mock] packet received[Mock/RECV]: recv_all_f:b'\x00\x00\xc8B'
+
+
+[Mock] RX cmd=0x15, num_bytes=4, payload_len=1
+[RoSE->Mock] prepare to send packet
+
+[Mock] CS_RSP_DEPTH_STREAM payload size mismatch: got=1, expect=3136[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+detect cmd = 0x15, flip flag
+
+flag break[Mock/RECV]: recv_all:b'\x13\x00\x00\x00'
+[RoSE->Mock] packet received
+
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'[RoSE->Mock] prepare to send packet
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\xc8B'
+
+[Mock] RX cmd=0x13, num_bytes=4, payload_len=1
+
+detect cmd = 0x13, flip flag
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+========== send waypoint req ==========
+[Mock] latency_queue append cmd=0x02
+[Mock] Sending: cmd=0x02
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=2, data_len=16, is_float=True
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x02, total=24 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=24 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock] Complete 5 IMG
+========== send coor req ==========
+[Mock] latency_queue append cmd=0x30
+[Mock] Sending: cmd=0x30
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=48, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x30, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] prepare to send packet
+
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'1\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'j\xfbGB'[RoSE->Mock] packet received
+
+
+[Mock] RX cmd=0x31, num_bytes=4, payload_len=1
+
+[RoSE->Mock] prepare to send packet
+[Mock] dxy=3377490027.3937, dphi=-2.3237 (rad)
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)detect cmd = 0x31, flip flag
+
+flag break[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock] latency_queue append cmd=0x32
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'[Mock] Sending: cmd=0x32
+
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=50, data_len=0, is_float=False[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock/SEND] send_packet cmd=0x32, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] prepare to send packet
+[Mock] Sending: cmd=0x84
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'3\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'[RoSE->Mock] packet received
+
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all_f:b'\xebA\xa7\xc0'
+
+
+[Mock] RX cmd=0x33, num_bytes=4, payload_len=1
+
+[Mock] dxy=3418129037.6551, dphi=-2.3195 (rad)
+detect cmd = 0x33, flip flag
+flag break[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock] latency_queue append cmd=0x34[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] Sending: cmd=0x34
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=52, data_len=0, is_float=False
+[Mock/SEND] prepare to send[Mock] latency_queue append cmd=0x84
+
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x34, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock] response enqueue with delay: cmd=0x84, len=0[Mock] Sending: cmd=0x84
+
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False[Mock->RoSE] prepare to send packet
+[Mock/SEND] prepare to send
+
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'5\x00\x00\x00'[RoSE->Mock] packet received
+
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+[RoSE->Mock] prepare to send packet[Mock/RECV]: recv_all_f:b'\xb4\xc7\x87?'
+
+
+[Mock] RX cmd=0x35, num_bytes=4, payload_len=1
+
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock] dxy=3418129037.6551, dphi=-0.3377 (rad)
+detect cmd = 0x35, flip flag
+flag break[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+========== send depth stream req ==========
+[Mock] latency_queue append cmd=0x14
+========== wait depth rsp ==========
+[Mock] Sending: cmd=0x14
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=20, data_len=0, is_float=True
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet[Mock/SEND] send_packet cmd=0x14, total=8 bytes sent to ('127.0.0.1', 59582)
+[RoSE->Mock] packet received
+
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x15\x00\x00\x00'
+
+[RoSE->Mock] packet received
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'[RoSE->Mock] prepare to send packet
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\xc8B'
+
+[Mock] RX cmd=0x15, num_bytes=4, payload_len=1
+[RoSE->Mock] forwarding packet len=12 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[RoSE->Mock] packet received
+
+[RoSE->Mock] prepare to send packet[Mock] CS_RSP_DEPTH_STREAM payload size mismatch: got=1, expect=3136
+
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)detect cmd = 0x15, flip flag
+
+flag break[Mock/RECV]: recv_all:b'\x13\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x04\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\xc8B'
+
+[Mock] RX cmd=0x13, num_bytes=4, payload_len=1
+
+detect cmd = 0x13, flip flag
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock->RoSE] packet received[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)[Mock->RoSE] packet received
+
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+========== send waypoint req ==========
+[Mock] latency_queue append cmd=0x02
+[Mock] Sending: cmd=0x02
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=2, data_len=16, is_float=True
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x02, total=24 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=24 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] prepare to send packet
+[RoSE->Mock] forwarding packet len=8 / src=('127.0.0.1', 10001) -> dst=('127.0.0.1', 10002)
+[Mock/RECV]: recv_all:b'\x80\x00\x00\x00'
+[Mock/RECV]: recv_all_f:b'\x00\x00\x00\x00'
+
+[Mock] RX cmd=0x80, num_bytes=0, payload_len=0
+
+[Mock] latency_queue append cmd=0x84
+[Mock] response enqueue with delay: cmd=0x84, len=0
+[Mock] Sending: cmd=0x84
+[Mock/SEND]: conn=<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 10002), raddr=('127.0.0.1', 59582)>, cmd=132, data_len=0, is_float=False
+[Mock/SEND] prepare to send
+[Mock/SEND] send_packet cmd=0x84, total=8 bytes sent to ('127.0.0.1', 59582)
+[Mock->RoSE] packet received
+[Mock->RoSE] prepare to send packet
+[Mock->RoSE] forwarding packet len=8 / src=('127.0.0.1', 59582) -> dst=('127.0.0.1', 40458)
+[RoSE->Mock] packet received
+[RoSE->Mock] EOF
